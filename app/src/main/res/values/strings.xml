@@ -2,5 +2,5 @@
     <string name="app_name">Rcss-Venue-Management-Firebase</string>
     <string name="logo">logo</string>
     <string name="background">background</string>
-    <string name="welcome">Welcome!</string>
+    <string name="welcome">Welcome! book <font color="#0b9247">Venue</font> with ease</string>
 </resources>
