@@ -20,13 +20,12 @@ public class IntroActivity extends AppCompatActivity {
         setContentView(R.layout.activity_intro);
 
         Animation topAnim = AnimationUtils.loadAnimation(this, R.anim.top_anim);
-        Animation bottomAnim = AnimationUtils.loadAnimation(this, R.anim.bottom_anim);
 
         hero = findViewById(R.id.imageView);
         heading = findViewById(R.id.heading);
 
         hero.setAnimation(topAnim);
-        heading.setAnimation(bottomAnim);
+        heading.setAnimation(topAnim);
 
         new Handler().postDelayed(() -> {
             Intent intent = new Intent(IntroActivity.this, MainActivity.class);
